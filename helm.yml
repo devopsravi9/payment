@@ -25,3 +25,11 @@ hpa:
   min: 2
   max: 10
   cpuAvg: 60
+
+resources:
+  requests:
+    memory: "3200Mi"
+    cpu: "1000m"
+  limits:
+    memory: "3500Mi"
+    cpu: "1200m"
